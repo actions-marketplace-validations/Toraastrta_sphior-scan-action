@@ -69,7 +69,7 @@ point at the right files.
 | `fail-on` | `high` | Fail the job when a finding is at or above `critical`, `high`, `medium`, `low` or `info`. `none` never fails. |
 | `sarif-file` | `sphior-code.sarif` | Where to write the SARIF 2.1.0 report. |
 | `upload-sarif` | `auto` | Send the results to GitHub code scanning. `auto` does it for public repositories only. `true` always, `false` never. |
-| `version` | `0.1.9` | Version of [`@sphior/scan`](https://www.npmjs.com/package/@sphior/scan) to run. |
+| `version` | `0.1.11` | Version of [`@sphior/scan`](https://www.npmjs.com/package/@sphior/scan) to run. |
 
 A mistyped input stops the job with an error instead of quietly turning the check off.
 

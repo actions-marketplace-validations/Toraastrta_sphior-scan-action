@@ -37,7 +37,7 @@ inputs:
   version:
     description: "Version of @sphior/scan to run. Pin it so results only change when you change it."
     required: false
-    default: "0.1.9"
+    default: "0.1.11"
 
 outputs:
   findings:
